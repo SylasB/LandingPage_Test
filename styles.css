@@ -23,6 +23,10 @@
   flex-basis: 350px;
 }
 
+.button {
+  background-color: #3882f6;
+}
+
 .container-awesome {
   display: flex;
   padding: 50px;
