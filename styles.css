@@ -1,5 +1,5 @@
 * {
-  font: roboto;
+  font-family: roboto;
 }
 
 .container-1 {
@@ -87,10 +87,38 @@
   margin: 50px;
 
   display: flex;
+  flex-wrap: wrap;
 }
 
 .item-quote {
+  color: #1f2937;
+  font-size: 16px;
   margin: 75px;
   align-self: center;
   justify-content: center;
+}
+.container-action {
+  max-width: 900px;
+  height: 275px;
+  margin: 50px;
+
+  display: flex;
+  background-color: lightblue;
+  justify-content: center;
+}
+
+.action-box {
+  border: 50px red;
+}
+
+.action-text {
+  border: 2px red;
+  align-self: center;
+  margin: 100px;
+}
+
+.action-button {
+  align-self: center;
+  background-color: #3882f6;
+  border-radius: 20px;
 }
