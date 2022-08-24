@@ -108,7 +108,8 @@
 }
 
 .action-box {
-  border: 50px red;
+  border: 5px red;
+  align-items: center;
 }
 
 .action-text {
@@ -121,4 +122,23 @@
   align-self: center;
   background-color: #3882f6;
   border-radius: 20px;
+}
+
+.container-footer {
+  height: 50px;
+  max-width: 900px;
+  margin-inline: 50px;
+  color: #f9faf8;
+  background-color: #1f2937;
+
+  display: flex;
+  /* font-size: 12px;
+  align-self: center; */
+}
+
+.item-footer {
+  /* justify-self: center; */
+  font-size: 12px;
+  align-self: center;
+  border: 5px red;
 }
