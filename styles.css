@@ -59,26 +59,29 @@
 .container-2-2 {
   /* background-color: black; */
   display: flex;
-  height: 350px;
+  height: 250px;
   max-width: 900px;
   margin: 50px;
-  border: 5px solid red;
 }
 
-.box {
-  min-width: 70px;
-  height: 50px;
-  border: 4px solid #3882f6;
-  background-color: aqua;
-  color: red;
-  text-align: center;
-  margin: 50px;
-  border-radius: 5px;
-
+.big-box {
   flex-wrap: wrap;
   flex: 1;
   flex-basis: 10px;
   justify-content: center;
+  align-content: center;
+  align-self: center;
+}
+
+.box {
+  min-width: 80px;
+  height: 80px;
+  border: 4px solid #3882f6;
+  background-color: white;
+  color: red;
+  text-align: center;
+  margin: 50px;
+  border-radius: 5px;
 }
 
 .container-quote {
