@@ -57,11 +57,12 @@
 }
 
 .container-2-2 {
-  background-color: black;
+  /* background-color: black; */
   display: flex;
   height: 350px;
   max-width: 900px;
   margin: 50px;
+  border: 5px solid red;
 }
 
 .box {
@@ -99,29 +100,42 @@
 }
 .container-action {
   max-width: 900px;
-  height: 275px;
+  height: 175px;
   margin: 50px;
 
   display: flex;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .action-box {
-  border: 5px red;
   align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background-color: #3882f6;
+  display: flex;
+  color: #f9faf8;
 }
 
 .action-text {
-  border: 2px red;
+  border-radius: 5px;
+  padding: 20px;
+
   align-self: center;
-  margin: 100px;
+  /* margin: 100px; */
+  flex-wrap: wrap;
 }
 
 .action-button {
-  align-self: center;
+  /* align-self: center; */
+
   background-color: #3882f6;
   border-radius: 20px;
+  justify-self: flex-end;
+  flex-wrap: wrap;
+  color: #3882f6;
+  padding-inline: 75px;
 }
 
 .container-footer {
@@ -132,13 +146,11 @@
   background-color: #1f2937;
 
   display: flex;
-  /* font-size: 12px;
-  align-self: center; */
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .item-footer {
-  /* justify-self: center; */
   font-size: 12px;
-  align-self: center;
-  border: 5px red;
+  align-items: center;
 }
